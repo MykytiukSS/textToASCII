@@ -74,7 +74,9 @@ public class Main {
 		
 		PrintingTxtANSII pr = new PrintingTxtANSII("vasia molodets", englishAlphabet);
 		
-		pr.printANSII();		
+		//pr.printANSII();
+		
+		pr.printANSIISlow();
 
 	}
 

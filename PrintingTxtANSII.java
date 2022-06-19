@@ -49,5 +49,21 @@ public class PrintingTxtANSII {
 		}
 
 	}
+	
+	
+	public void printANSIISlow() {
+		String[] sArray = string.toLowerCase().split("");
+		
+	
+		for (int i = 0; i < 7; i++) {
+			int temp=i;
+			PrintSlowASCII prslow= new PrintSlowASCII(sArray, eng.getLetters(),temp);
+			prslow.run();
+			
+			
+		}
+		
+		
+	}
 
 }
